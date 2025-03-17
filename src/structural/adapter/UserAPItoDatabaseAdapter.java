@@ -1,6 +1,6 @@
 package structural.adapter;
 
-public class UserAPItoDatabaseAdapter extends UserAPI implements Database {
+class UserAPItoDatabaseAdapter extends UserAPI implements Database {
     @Override
     public void insert() {
         createUser();
