@@ -1,9 +1,9 @@
 package behavioral.observer;
 
-public class EmailObserver implements Observer {
+class EmailObserver implements Observer {
     private final String name;
 
-    public EmailObserver(String name) {
+    EmailObserver(String name) {
         this.name = name + "'s news email subscription";
     }
 

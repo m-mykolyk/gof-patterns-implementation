@@ -1,6 +1,6 @@
 package behavioral.command;
 
-public class TurnOnLightCommand implements Command {
+class TurnOnLightCommand implements Command {
     private final Light light;
 
     TurnOnLightCommand(Light light) {
