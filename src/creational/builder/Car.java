@@ -30,32 +30,32 @@ class Car {
         private String engineType;
         private String transmissionType;
 
-        public CarBuilder setBrand(String brand) {
+        CarBuilder setBrand(String brand) {
             this.brand = brand;
             return this;
         }
 
-        public CarBuilder setModel(String model) {
+        CarBuilder setModel(String model) {
             this.model = model;
             return this;
         }
 
-        public CarBuilder setModelYear(short modelYear) {
+        CarBuilder setModelYear(short modelYear) {
             this.modelYear = modelYear;
             return this;
         }
 
-        public CarBuilder setEngineType(String engineType) {
+        CarBuilder setEngineType(String engineType) {
             this.engineType = engineType;
             return this;
         }
 
-        public CarBuilder setTransmissionType(String transmissionType) {
+        CarBuilder setTransmissionType(String transmissionType) {
             this.transmissionType = transmissionType;
             return this;
         }
 
-        public Car build() {
+        Car build() {
             return new Car(this);
         }
     }

@@ -1,6 +1,6 @@
 package behavioral.mediator;
 
-class Main {
+public class Main {
     public static void main(String[] args) {
         ChatMediator chatRoom = new ChatRoom();
 
